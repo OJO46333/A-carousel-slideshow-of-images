@@ -1,0 +1,124 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+html{
+    font-size: 62.5%;
+}
+body{
+    height: 100vh;
+    background: linear-gradient(45deg, rgb(108, 212, 139) 0%, rgb(235, 116, 116) 100%);
+}
+.container{
+    
+    height: 40rem;
+    width: 40rem;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+   
+    
+}
+.images img{
+    height: 100%;
+    position: absolute;
+    width: 100%;
+}
+.btns span{
+    font-size: 3rem;
+    padding: 1.5rem;
+    cursor: pointer;
+    position: absolute;
+    top: 40%;
+    transition: .3s;
+    color: white;
+}
+.btns span:nth-child(1){
+    left: -3rem;
+    color: rgb(189, 216, 197)
+}
+.btns span:nth-child(2){
+    right: -3rem;
+    color: rgb(204, 172, 172)
+}
+.dots{
+    position: absolute;
+    bottom: -6rem;
+    left: 20%;
+}
+.dot{
+    display: inline-block;
+    padding: .7rem;
+    background: gray;
+    border-radius: 3rem;
+    margin: 1rem;
+    cursor: pointer;
+    transition: .3s;
+}
+.btns span:hover{
+    background: rgb(247, 72, 72);
+}
+.dot:hover, .active{
+    background: rgb(192, 44, 44);
+}
+.fade{
+    animation: fade ls;
+}
+@keyframes fade{
+    from{
+        opacity: .3;
+    }
+    to{
+        opacity: 1;
+    }
+}
+
+/* div{
+    border: 1px solid black;
+} */
+/* #div1{
+    background-color: black;
+    border: pink;
+    width: 50%;
+    height: 20px;
+    text-align: center;
+    justify-items: center;
+    margin: 0;
+}#div2{
+    background-color: black;
+    border: pink;
+    width: 50%;
+    height: 20px;
+    text-align: center;
+    justify-items: center;
+    margin: 0;
+}
+#div3{
+    background-color: black;
+    border: pink;
+    width: 50%;
+    height: 20px;
+    text-align: center;
+    justify-items: center;
+    margin: 0;
+}
+#div4{
+    background-color: black;
+    border: pink;
+    width: 50%;
+    height: 20px;
+    text-align: center;
+    justify-items: center;
+    margin: 0;
+}
+#div5{
+    background-color: black;
+    border: pink;
+    width: 50%;
+    height: 20px;
+    text-align: center;
+    justify-items: center;
+    margin: 0;
+} */
